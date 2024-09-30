@@ -7,6 +7,6 @@ for (let contador = 0; contador < pacientes.length; contador++){
     var peso = dadosPacientes.querySelector('.info-peso').textContent;
     var altura = dadosPaciente.querySelector('.info-altura').textContent;
     var imc = peso / (altura*altura);
-    dadso
+    dadosPacientes.querySelector('.info-imc').textContent = imc;
 
 }
